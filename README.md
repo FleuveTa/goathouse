@@ -1,1 +1,1 @@
-A simple landing page - first designed in figma and then coded in React. Hope you like it.
+A very simple landing page but it took me 3 days to complete 😭
