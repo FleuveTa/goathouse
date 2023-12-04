@@ -15,9 +15,7 @@ import ListItemIcon from "@mui/material/ListItemIcon";
 import ListItemText from "@mui/material/ListItemText";
 import HomeIcon from "@mui/icons-material/Home";
 import InfoIcon from "@mui/icons-material/Info";
-import CommentRoundedIcon from "@mui/icons-material/CommentRounded";
 import PhoneRoundedIcon from "@mui/icons-material/PhoneRounded";
-import ShoppingCartRoundedIcon from "@mui/icons-material/ShoppingCartRounded";
 
 
 const Navbar = () => {
@@ -25,6 +23,9 @@ const Navbar = () => {
   const navigate = useNavigate()
   const goGoat = () => {
     navigate('/goathouse')
+  }
+  const goEaster = () => {
+    navigate('/muahahaha')
   }
   const menuOptions = [
     {
@@ -51,7 +52,7 @@ const Navbar = () => {
         <div className="search-icon">
           <IoSearchCircle className="navbar-cart-icon"/>
         </div>
-        <button className="login-button">ĐĂNG NHẬP</button>
+        <button className="login-button" onClick={goEaster}>ĐĂNG NHẬP</button>
         <button className="guest-button" onClick={goGoat}>DÙNG THỬ</button>
       </div>
       <div className="navbar-menu-container">
