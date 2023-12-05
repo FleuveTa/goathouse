@@ -9,7 +9,7 @@ const Home = () => {
       <div className="home-banner-container">
         <div className="home-text-section">
           <h1 className="primary-heading">
-            TRỞ THÀNH <span>"GOAT"</span> KHI THIẾT KẾ CHÍNH NGÔI NHÀ CỦA BẠN
+            TRỞ THÀNH <span>"GOAT"</span><br/>KHI THIẾT KẾ CHÍNH<br />NGÔI NHÀ CỦA BẠN
           </h1>
           <p className="primary-text">
             Chỉ mất 30 phút cho mỗi thiết kế và 03 giây để lưu.

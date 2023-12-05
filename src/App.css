@@ -9,6 +9,9 @@
   box-sizing: border-box;
   font-family: "SVN Gilrol", sans-serif !important;
 }
+html {
+  font-size: 11px;
+}
 img {
   max-width: 100%;
   height: auto;
@@ -39,7 +42,7 @@ span {
   padding: 10px;
 }
 .house-page-container .choosen {
-  font-size: 60px;
+  font-size: 5rem;
   margin-top: 3rem;
 }
 .house-container {
@@ -53,7 +56,7 @@ span {
 }
 .goat-com-container {
   width: 20vw;
-  height: 240px;
+  height: 16rem;
   padding-left: 1.5rem;
   padding-right: 1.5rem;
   background-color: #ffca3e;
@@ -76,7 +79,7 @@ span {
 .goat-com-container p {
   color: black;
   font-weight: bold;
-  margin-top: 10px;
+  margin-top: 1.5rem;
 }
 .goat-com-container img {
   margin-top: 5px;
@@ -93,7 +96,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  min-height: 120px;
+  min-height: 10rem;
 }
 .nav-logo-container {
   display: flex;
@@ -154,8 +157,8 @@ nav {
   transition: 0.2s;
 }
 .primary-button {
-  padding: 0.9rem 1.75rem;
-  max-width: 333px;
+  padding: 1.2rem 2rem;
+  max-width: 35rem;
   margin-left: 4rem;
   margin-top: 4rem;
   background-color: #ffc000;
@@ -163,7 +166,7 @@ nav {
   outline: none;
   border: none;
   border-radius: 2rem;
-  font-size: 1.8rem;
+  font-size: 2rem;
   cursor: pointer;
   font-weight: 600;
   transition: 0.2s;
@@ -218,7 +221,7 @@ nav {
 .primary-heading {
   font-size: clamp(2rem, 5vw, 4rem);
   color: black;
-  max-width: 600px;
+  max-width: 40%;
 }
 .primary-heading-about {
   font-size: clamp(2rem, 5vw, 4rem);
@@ -245,20 +248,20 @@ nav {
 }
 .primary-text-about {
   font-size: clamp(1rem, 3vw, 1.5rem);
-  max-width: 600px;
+  max-width: 40%;
   color: black;
   margin: 1.5rem 0rem;
 }
 .primary-text-work {
   font-size: clamp(1rem, 1.2vw, 1.5rem);
-  max-width: 650px;
+  max-width: 60%;
   font-weight: 100;
   color: black;
   margin: 1.5rem 0rem;
 }
 .primary-text-monial {
   font-size: clamp(1rem, 1.2vw, 1.5rem);
-  max-width: 750px;
+  max-width: 42%;
   font-weight: 200;
   color: black;
   margin: 1.5rem 0rem;
@@ -308,7 +311,6 @@ nav {
   padding-top: 3rem;
   position: relative;
   display: flex;
-  /* align-items: center; */
   justify-content: space-between;
 }
 .work2-section-container {
@@ -355,9 +357,8 @@ nav {
   flex-direction: column;
 }
 .work-section-text-container {
-  margin-left: 60rem;
+  margin-left: 50%;
   flex: 1;
-  /* justify-content: center; */
   padding-top: 7rem;
   display: flex;
   flex-direction: column;
@@ -639,6 +640,19 @@ nav {
   .home-bannerImage-container,
   .about-background-image-container {
     display: none;
+  }
+}
+
+@media screen and (min-resolution: 96dpi) {
+  /* Assuming 100% scale */
+  html {
+    font-size: 16px; /* Font size when the user uses 100% scale */
+  }
+}
+@media screen and (min-resolution: 110dpi) {
+  /* Assuming 100% scale */
+  html {
+    font-size: 11px; /* Font size when the user uses 100% scale */
   }
 }
 
