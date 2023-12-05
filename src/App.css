@@ -159,7 +159,6 @@ nav {
 .primary-button {
   padding: 1.2rem 2rem;
   max-width: 35rem;
-  margin-left: 4rem;
   margin-top: 4rem;
   background-color: #ffc000;
   color: black;
@@ -254,7 +253,7 @@ nav {
 }
 .primary-text-work {
   font-size: clamp(1rem, 1.2vw, 1.5rem);
-  max-width: 60%;
+  max-width: 75%;
   font-weight: 100;
   color: black;
   margin: 1.5rem 0rem;
@@ -363,11 +362,14 @@ nav {
   display: flex;
   flex-direction: column;
 }
+
+.work-section-text-container .child:last-child {
+  align-self: flex-start;
+}
 .monial-section-text-container {
   margin-left: 11rem;
   padding-top: 5rem;
   flex: 1;
-  /* justify-content: center; */
   display: flex;
   flex-direction: column;
 }
