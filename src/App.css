@@ -300,7 +300,8 @@ nav {
 }
 .work-section-container {
   background-image: url("./Assets/4.png");
-  background-size: cover; 
+  background-size: contain; 
+  background-repeat: no-repeat;
   background-position: center;
   height: 100vh;
   padding-top: 3rem;
@@ -322,7 +323,8 @@ nav {
 }
 .monial-section-container {
   background-image: url("./Assets/3.png");
-  background-size: cover; 
+  background-size: contain; 
+  background-repeat: no-repeat;
   background-position: center;
   height: 100vh;
   padding-top: 3rem;
@@ -424,8 +426,10 @@ nav {
 }
 .footer-wrapper {
   background-image: url("./Assets/footer.png");
+  background-color: rgb(34, 34, 34);
   height: 100vh;
-  background-size: cover; /* Adjust this value as needed */
+  background-size: contain; /* Adjust this value as needed */
+  background-repeat: no-repeat;
   background-position: center;
 }
 .footer-logo-container {
@@ -670,36 +674,42 @@ nav {
 .goat1 {
   background-image: url(./Assets/goat1.png);
   height: 100vh;
-  background-size: cover; /* Adjust this value as needed */
+  background-size: contain; /* Adjust this value as needed */
+  background-repeat: no-repeat;
   background-position: center;
 }
 .goat2 {
   background-image: url(./Assets/goat2.png);
   height: 100vh;
-  background-size: cover; /* Adjust this value as needed */
+  background-size: contain;
+  background-repeat: no-repeat; /* Adjust this value as needed */
   background-position: center;
 }
 .goat3 {
   background-image: url(./Assets/goat3.png);
   height: 100vh;
-  background-size: cover; /* Adjust this value as needed */
+  background-size: contain;
+  background-repeat: no-repeat; /* Adjust this value as needed */
   background-position: center;
 }
 .goat4 {
   background-image: url(./Assets/goat4.png);
   height: 100vh;
-  background-size: cover; /* Adjust this value as needed */
+  background-size: contain;
+  background-repeat: no-repeat; /* Adjust this value as needed */
   background-position: center;
 }
 .goat5 {
   background-image: url(./Assets/goat5.png);
   height: 100vh;
-  background-size: cover; /* Adjust this value as needed */
+  background-size: contain;
+  background-repeat: no-repeat; /* Adjust this value as needed */
   background-position: center;
 }
 .goat6 {
   background-image: url(./Assets/goat6.png);
   height: 100vh;
-  background-size: cover; /* Adjust this value as needed */
+  background-size: contain;
+  background-repeat: no-repeat; /* Adjust this value as needed */
   background-position: center;
 }
