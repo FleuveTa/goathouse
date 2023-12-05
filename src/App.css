@@ -47,13 +47,13 @@ span {
   flex-wrap: wrap;
   justify-content: center;
   margin-top: 5rem;
-  padding-left: 20rem;
-  padding-right: 20rem;
+  padding-left: 12rem;
+  padding-right: 12rem;
   gap: 2rem;
 }
 .goat-com-container {
-  width: 350px;
-  height: 230px;
+  width: 20vw;
+  height: 240px;
   padding-left: 1.5rem;
   padding-right: 1.5rem;
   background-color: #ffca3e;
@@ -185,7 +185,7 @@ nav {
   cursor: pointer;
 }
 .home-container {
-  background-image: url("./Assets/1.png");
+  background-image: url("./Assets/11.png");
   height: 100vh;
   background-size: cover; /* Adjust this value as needed */
   background-position: center;
@@ -288,7 +288,7 @@ nav {
 
 /* css container */
 .about-section-container {
-  background-image: url("./Assets/2.png");
+  background-image: url("./Assets/22.png");
   background-size: cover; 
   background-position: center;
   height: 90vh;
@@ -299,10 +299,11 @@ nav {
   justify-content: space-between;
 }
 .work-section-container {
-  background-image: url("./Assets/4.png");
+  background-image: url("./Assets/33.png");
   background-size: contain; 
+  background-color: white;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: left bottom;
   height: 100vh;
   padding-top: 3rem;
   position: relative;
@@ -311,7 +312,7 @@ nav {
   justify-content: space-between;
 }
 .work2-section-container {
-  background-image: url("./Assets/5.png");
+  background-image: url("./Assets/55.png");
   background-size: cover; 
   background-position: center;
   height: 100vh;
@@ -322,10 +323,11 @@ nav {
   justify-content: space-between;
 }
 .monial-section-container {
-  background-image: url("./Assets/3.png");
+  background-image: url("./Assets/44.png");
+  background-color: white;
   background-size: contain; 
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: left top;
   height: 100vh;
   padding-top: 3rem;
   position: relative;
@@ -334,7 +336,7 @@ nav {
   justify-content: space-between;
 }
 .monial2-section-container {
-  background-image: url("./Assets/6.png");
+  background-image: url("./Assets/66.png");
   background-size: cover; 
   background-position: center;
   height: 100vh;
@@ -377,25 +379,6 @@ nav {
   margin-top: 2rem;
   display: flex;
 }
-.watch-video-button {
-  margin-left: 2rem;
-  background-color: transparent;
-  outline: none;
-  border: none;
-  border-radius: 5rem;
-  font-size: 1.1rem;
-  cursor: pointer;
-  font-weight: 600;
-  color: #484848;
-  transition: 0.2s;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.watch-video-button svg {
-  font-size: 3rem;
-  margin-right: 1rem;
-}
 .contact-page-wrapper h1 {
   max-width: 900px !important;
 }
@@ -425,7 +408,7 @@ nav {
   padding: 0.5rem 1rem;
 }
 .footer-wrapper {
-  background-image: url("./Assets/footer.png");
+  background-image: url("./Assets/77.png");
   background-color: rgb(34, 34, 34);
   height: 100vh;
   background-size: contain; /* Adjust this value as needed */
@@ -672,42 +655,42 @@ nav {
 }
 
 .goat1 {
-  background-image: url(./Assets/goat1.png);
+  background-image: url(./Assets/intern2.png);
   height: 100vh;
   background-size: contain; /* Adjust this value as needed */
   background-repeat: no-repeat;
   background-position: center;
 }
 .goat2 {
-  background-image: url(./Assets/goat2.png);
+  background-image: url(./Assets/master2.png);
   height: 100vh;
   background-size: contain;
   background-repeat: no-repeat; /* Adjust this value as needed */
   background-position: center;
 }
 .goat3 {
-  background-image: url(./Assets/goat3.png);
+  background-image: url(./Assets/hint2.png);
   height: 100vh;
   background-size: contain;
   background-repeat: no-repeat; /* Adjust this value as needed */
   background-position: center;
 }
 .goat4 {
-  background-image: url(./Assets/goat4.png);
+  background-image: url(./Assets/item2.png);
   height: 100vh;
   background-size: contain;
   background-repeat: no-repeat; /* Adjust this value as needed */
   background-position: center;
 }
 .goat5 {
-  background-image: url(./Assets/goat5.png);
+  background-image: url(./Assets/adviser2.png);
   height: 100vh;
   background-size: contain;
   background-repeat: no-repeat; /* Adjust this value as needed */
   background-position: center;
 }
 .goat6 {
-  background-image: url(./Assets/goat6.png);
+  background-image: url(./Assets/judger2.png);
   height: 100vh;
   background-size: contain;
   background-repeat: no-repeat; /* Adjust this value as needed */
